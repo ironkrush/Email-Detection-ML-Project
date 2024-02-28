@@ -36,8 +36,8 @@ def predict(message):
 #coding for web
 st.header('Spam Detection')
 
-output = predict('Congratulations, you won a lottery')
-input_mess = st.text_input('Enter Message Here')
+
+input_mess = st.text_input('Enter Your Email Text Here')
 
 if st.button('Validate'):
       output =  predict(input_mess)
