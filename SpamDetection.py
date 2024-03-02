@@ -34,7 +34,7 @@ def predict(message):
             return result
 
 #coding for web
-st.header('Spam Detection')
+st.header('SpamGuardian')
 
 
 input_mess = st.text_input('Enter Your Email Text Here')
